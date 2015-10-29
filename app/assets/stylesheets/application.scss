@@ -1,0 +1,61 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *
+ *= require jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+@import "materialize";
+@import "materialize/extras/nouislider";
+
+
+
+.nav-wrapper {
+  background-color: rgba(248, 165, 0, 1);
+}
+
+.banner_title {
+	color:white;
+}
+.banner_text2 {
+	color: white;
+}
+.banner {
+background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e0/4d/9d/e04d9d29c3bf0b1f73eaa6ae88088c1f.gif");
+	background-repeat: no-repeat;
+	background-size: auto;
+	max-width: 100%;
+}
+
+.background_image {
+
+	background: rgba(0, 0,0, 0.55);
+	height: 550px;
+	max-width: 100%;
+
+}
+
+.interests {
+	height: 500px;
+}
+
+.test_guy {
+
+	max-width: 800px;
+	width: 80%;
+	margin:  0 auto;
+}
+
+// #map-canvas{
+// 	height:550px;
+// 	}
